@@ -1,0 +1,120 @@
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+      <div>
+          <nav id="navbar">
+              <a class="nav-link" href="#welcome-section">About</a>
+              <a class="nav-link" href="#projects">Work</a>
+              <a class="nav-link" href="#form">Registration Form</a>
+              <a class="nav-link" href="#progress">Progress Bar</a>
+              <a class="nav-link" href="#contact">Contact</a>
+          </nav>
+  
+          <section id="welcome-section">
+              <h1>Hello! I'm Hossen Ali.</h1><br>
+              <p><em>a web developer</em></p>
+          </section>
+          
+          <section id="projects">
+              <h2 id="projects-header">Take a look at some of my projects</h2>
+              <div id="projects-grid">
+                  <a class="project-tile" id="project-one" href="https://codepen.io/kendi-m/pen/YzEXybM" target="_blank"><img src="https://i.imgur.com/WiyuZMV.png" alt="Tribute Page"><p>Tribute Page</p></a>
+                  <a class="project-tile" id="project-two" href="https://codepen.io/kendi-m/pen/xxQJoxp" target="_blank"><img src="https://i.imgur.com/cijOo3J.png" alt="Survey Form"><p>Survey Form</p></a>
+                  <a class="project-tile" id="project-three" href="https://codepen.io/kendi-m/pen/gOQdGYX" target="_blank"><img src="https://i.imgur.com/zW4pIxO.png" alt="Product Landing Page"><p>Product Landing Page</p></a>
+                  <a class="project-tile" id="project-four" href="https://codepen.io/kendi-m/pen/QWJVeQa" target="_blank"><img src="https://i.imgur.com/3Idoc48.png" alt="Technical Documentation Page"><p>Technical Documentation Page</p></a>
+              </div>    
+          </section>
+          <section id="form">
+            <h1>Registration form</h1>
+            <div class="container">
+                <form action="/action_page.php">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">First Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="lname">Last Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="email" name="email" placeholder="Email Address.">
+                    </div>
+                  </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="country">Country</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                  </div>
+                </div>
+                <br>
+                 
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+          </section>
+
+          <section id="progress">
+            <h2> Progress Bars</h2>
+  <p>Use any of the <strong>w3-round</strong> classes to add rounded corners to progress bars:</p>
+
+  <div class="w3-light-grey w3-round">
+    <div class="w3-container w3-red w3-round" style="width:75%">Html </div>
+  </div><br>
+
+  <div class="w3-light-grey w3-round-large">
+    <div class="w3-container w3-black w3-round-large" style="width:65%">Css</div>
+  </div><br>
+
+  <div class="w3-light-grey w3-round-xlarge">
+    <div class="w3-container w3-blue w3-round-xlarge" style="width:55%">Javascript</div>
+  </div><br>
+
+  <div class="w3-light-grey w3-round-xlarge">
+    <div class="w3-container w3-yellow w3-round-xlarge" style="width:45%">Bootstrap</div>
+  </div>
+          </section>
+           
+  
+          <section id="contact">
+              <p>Let's Chat</p>
+              <div id="contact-links">
+                  <a id="Github" href="https://github.com/Kendi-M" target="_blank"><i class="fa fa-github" style="font-size:36px;color:white"></i> Github</a>
+                  <a id="profile-link" href="https://www.freecodecamp.org/kendim" target="_blank"><i class="fa fa-free-code-camp" style="font-size:36px;color:white"></i> freeCodeCamp</a>
+                  <a id="email" href="mailto:kendall.m.molina@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:36px;color:white"></i> Email</a>
+                  <a id="phone" href="tel:555-555-5555" target="_blank"><i class="fa fa-phone" style="font-size:36px;color:white"></i> Call me</a>
+              </div>    
+          </section>
+  
+          <footer id="footer">
+              <p>Copyright &copy; 2023 Kendall</p>
+          </footer>
+  
+      </div>
+  </body>
+  </html>
